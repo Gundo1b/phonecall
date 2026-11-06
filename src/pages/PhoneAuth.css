@@ -1,0 +1,112 @@
+
+.phone-page {
+  color-scheme: light;
+  color: #111827;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.phone-card {
+  width: 390px;
+  max-width: calc(100% - 32px);
+  padding: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.06);
+}
+
+.phone-icon {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.phone-card h1 {
+  font-size: 24px;
+  color: #111827;
+}
+
+.phone-card p {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.phone-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  margin: 25px 0 15px;
+  padding: 0 12px;
+}
+
+.phone-field span {
+  white-space: nowrap;
+  font-size: 15px;
+  border-right: 1px solid #e5e7eb;
+  padding-right: 12px;
+}
+
+.phone-field input {
+  background: white;
+  color: #111827;
+  flex: 1;
+  min-width: 0;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.phone-field:focus-within {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+}
+
+.phone-card button {
+  width: 100%;
+  padding: 14px;
+  background: #4f46e5;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.phone-card small {
+  display: block;
+  color: #9ca3af;
+  margin-top: 20px;
+}
+.signup-consent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 18px 0;
+  text-align: left;
+  font-size: 14px;
+}
+
+.phone-card .signup-secondary {
+  margin-top: 12px;
+  background: transparent;
+  color: #4f46e5;
+}
+
+.phone-card .signup-error {
+  margin-top: 16px;
+  color: #dc2626;
+}
+
+.phone-card button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
